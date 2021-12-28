@@ -97,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline1,
+              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 128),
             ),
           ],
         ),
